@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', monospace;
+}
+.NavLogo img{
+    width:100px;
+    border-radius: 50%;
+}
+body{
+    background-image:url(Tutorial2\For_Twitter.png);
+}
+
+.Navcontent ul{
+    list-style: none;
+     display: flex;
+     margin-top: 30px;
+     margin-left: 10px;
+     margin-right: 30px;
+     margin-bottom: 50px;
+     justify-content: center;
+     align-items: center;
+}
+ul.praise{
+    height: 70px;
+}
+.Navcontent ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    color: black;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+}
+.Navcontent ul li a:hover{
+    color: red;
+}
+ ul li ul.dropdown{
+    display: block;
+ }
+ ul li ul.dropdown{
+    width: 100%;
+    background-color:white  ;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+ }
+ ul li:hover ul.dropdown{
+    display: block;
+ }
+ ul.Praise{
+    margin-left: 1200px;
+
+ }
+ ul li ul.Menu {
+    display: block;
+ }
+ ul li ul.Menu{
+    width: 100%;
+    background-color:lightyellow ;
+    position: absolute;
+    z-index: 999;
+    display: none;
+ }
+ul li:hover ul.Menu{
+    display: block;
+ }

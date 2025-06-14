@@ -1,0 +1,54 @@
+.container img{
+    width: 100px;
+    border-radius: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightyellow;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 20px;
+    color: black;
+}
+ul li a:hover{
+   color: red;
+}
+h1{
+    background-image: url(Blur.Wallpapers.12.jpg);
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+ol{
+    display: flex;
+    font-family: Arial;
+    background-color: aqua;
+}
+ol li{
+  color: black;
+  list-style: none;
+  margin-left: 200px;
+}
+.Praise img{
+    width: 150px;
+    border-bottom-right-radius: 20px;
+}
+.Praise{
+    display: block;
+    background-color: brown;
+}
+h3{
+    margin-left: 200px;
+}
+.content p{ 
+    font-family: Arial;
+    margin-right: 400px;
+}

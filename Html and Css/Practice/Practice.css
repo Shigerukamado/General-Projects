@@ -1,0 +1,57 @@
+@keyframes fade-in{
+    0%  {
+        opacity: 0;
+    }
+    100%  {
+        opacity: 1;
+    }
+}
+
+body{
+    text-align: center;
+    background-image: url(https://giveawaylisting.com/wp-content/uploads/2024/09/Tomarket-Daily-Combo-Today-Featured-Images.png);
+    animation: fade-in 4s;
+    
+}
+.Sign-In{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 30px;
+} 
+form{
+    font-size: 40px;
+    color: blue;
+}
+button{
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    font-size: larger;
+}
+ button:hover{
+    background-color: gray;
+    transform: scale(2);
+    cursor: pointer;
+ }
+ h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 70px;
+ }
+ div{ 
+  padding: 40px;
+  color: blue;
+  font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: Black;
+}
+.Password{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
