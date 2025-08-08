@@ -1,4 +1,4 @@
-/* /*#countLabel{
+ /* #countLabel{
     display: block;
     text-align: center;
     font-size: 10em;
@@ -18,7 +18,7 @@
 .buttons:hover{
     cursor: pointer;
     background-color:hsl(214, 78%, 16%) ;
-}*/
+} */
 
 /*body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -87,4 +87,27 @@ button:hover{
 }*/
 /* .body{ */
     /* background-color:aliceblue ; */
-/* } */
+
+
+/* #mybutton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(214, 100%, 74%);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.25s;
+}
+.mylabels {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0;
+
+}
+#mybutton:hover {
+    background-color: hsl(214, 78%, 16%);
+    cursor: pointer;
+}  */

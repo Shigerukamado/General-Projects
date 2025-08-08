@@ -55,7 +55,7 @@
 
 
 
-// /*const decreaseBtn = document.getElementById("decreaseBtn");
+// const decreaseBtn = document.getElementById("decreaseBtn");
 // const resetBtn = document.getElementById("resetBtn");
 // const increaseBtn = document.getElementById("increaseBtn");
 // const countLabel = document.getElementById("countLabel");
@@ -72,7 +72,7 @@
 // resetBtn.onclick = function(){
 //     count=0;
 //     countLabel.textContent = count;
-// }*/
+// }
 
 //console.log(Math.PI);
 //console.log(Math.E);
@@ -538,4 +538,336 @@
 // let user = "Praise"
 // let str = greet(user);
 // console.log(str)
+
+// let laptop2 = {
+//     cpu: "19th Gen Intel Core i9",
+//     ram: "16GB",
+//     storage: "1TB HHD",
+//     brand: "Aplle",
+
+//     getconfig: function() {
+//         console.log(this.cpu);
+  
+// }
+// }
+
+// let laptop1 = {
+//     cpu: "19th Gen Intel Core i9",
+//     ram: "16GB",
+//     storage: "1TB SSD",
+//     brand: "HP",
+
+//     comapre: function(other) {
+//         if (this.cpu > other.cpu )
+//             console.log(this);
+//         else {
+//             console.log(other);
+//         }
+//     },
+
+//     getconfig: function() {
+//         console.log(this.cpu);
+  
+// }
+// }
+// laptop1.comapre(laptop2);
+
+// function People(name, age, country){
+//     this.name = name;
+//     this.age = age;
+//     this.country = country;
+
+// }
+// let person1 = new People("Praise", 21, "Nigeria");
+// let person2 = new People("John", 25, "USA");
+// let person3 = new  People("Marry", 30, "UK");
+
+// person1.country = "canada";
+// person1.name = "Jumoke";
+// console.log(person1.name, person1.age, person1.country);
+// console.log(person2.name, person2.age, person2.country);
+// console.log(person3.name, person3.age, person3.country);
+
+
+// let nums=[]
+// nums[0]=5;
+// nums[99]=9;
+
+// for(let n of nums){
+//     console.log(n);
+// }
+
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+// console.log(nums)
+// let [a, b, c, d, e, f, g, h, i, j] = nums;
+// console.log(a)
+
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+// let [a, b, c, d, e, f, g, h, i, j] = nums;
+// [a,b,c,d,e,f,g,h,i,j] = [j,i,h,g,f,e,d,c,b,a];
+//  let newnums = [j,i,h,g,f,e,d,c,b,a];
+// console.log(a, b, c, d, e, f, g, h, i, j);
+
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+// nums.filter(n=> n%2===0)
+//     .map(n=> n*2)
+//     .forEach(n => {
+//     console.log(n);
+// }) 
+
+// let nums=[1,2,3,4,5,6,7,8,9,10];
+
+// let result = nums.filter(n=> n%2===0)
+//     .map(n=> n*2)
+//     .reduce((a,b) => a+b );
+
+// console.log(result);
+
+
+// let element = new Set();
+
+// element.add(5);
+// element.add(4);
+// element.add(7);
+// element.add(8);
+// element.add(9);
+
+// console.log(element.has(7))
+
+//     element.forEach( n => {
+//         console.log(n);
+//     });\
+
+
+// let map = new Map();
+
+// map.set("Praise", "Javascript");
+// map.set("Marry", "Python");
+// map.set('Loveth', "HTML");
+// map.set ('Loveth', "BLOCKCHAIN");
+
+// for(let [k,v] of map){
+//     console.log(k, ":", v)
+// }
+
+// console.log(map.has("Praise"))
+
+
+// let num=1;
+//  function show(){
+//     console.log("Hi", num);
+//     num++;
+//     if(num <= 200);
+//     show();
+//  }
+
+//  show();
+
+// function fact(n){
+
+//     if(n==0)
+//       return 1;
+//     else 
+//         return n * fact(n-1);
+ 
+// }
+
+// let num = 5;
+// let result = fact(num);
+// console.log(result);
+
+// for(i=0; i<=100; i++){
+//     console.log('I LOVE YOU')
+// }
+// time = window.prompt("Enter the time in 24hr format");
+// time = Number(time);
+
+
+
+// const myinput = document.getElementById("myinput");
+// const mybutton = document.getElementById("mybutton");
+// const myresult = document.getElementById("myresult");
+// let time;
+
+// mybutton.onclick = function(){
+//     time = myinput.value;
+//     time = Number(time);
+
+//     if(time <12 ){
+//     myresult.textContent = "Good Morning";
+// }
+// else if (time >=12 && time < 17 ){
+//   myresult.textContent = "Good Afternoon";
+// }
+// else if (time >= 17 && time < 20){
+//     myresult.textContent = "Good Evening";
+// }
+// else if (time >= 20 && time <= 23){
+//    myresult.textContent = "Good Night";
+// }
+// else{
+//   myresult.textContent = "Invalid time";
+// }
+// }
+
+// let lettergrades;
+// let totalscore= window.prompt("Enter your total score");
+// totalscore = Number(totalscore);
+// {
+//     switch(true){
+//     case totalscore >=40 && totalscore <= 44:
+//     lettergrades = "E";
+//     break;
+
+//     case totalscore >=45 && totalscore <49:
+//     lettergrades = "D";
+//     break;
+
+//     case totalscore >=50 && totalscore <=59:
+//     lettergrades = "C";
+//     break;
+
+//     case totalscore >=60 && totalscore <=69:
+//     lettergrades = "B";
+//     break;
+
+//     case totalscore >=70 :
+//     lettergrades = "A";
+//     break;
+
+//     default:
+//         lettergrades = "F";
+//         break;
+// }
+
+// }
+
+// console.log(`You Total grade is ${lettergrades}`)
+
+// let email = window.prompt("Enter your email");
+
+// if(email.toLowerCase().endsWith("@gmail.com")){ 
+//         window.alert("Valid email");
+//     }
+// else{
+//     window.alert("InValid email. Enter a valid email");
+// }
+        
+
+// let username = email.slice(0, email.indexOf("@"));
+// let extension= email.slice( email.indexOf("@"));
+// console.log(`Your username is ${username}`)
+// console.log()
+
+// let number = window.prompt("Enter a your numbebr")
+
+// if (
+//     (number.startsWith("080")||
+//     number.startsWith("070")||
+//     number.startsWith("090")||
+//      number.startsWith("081")||
+//     number.startsWith("091") 
+// ) &&  
+//     number.length === 11){
+//     window.alert("Valid number");
+//     let formatted = "+234" + number.slice(1);
+
+//     if (formatted.length === 14 && formatted.startsWith("+234")) {
+//         window.alert(` Valid phone number.\nFormatted: ${formatted}`);
+//     } 
+//     else {
+//         window.alert(" Invalid phone number after formatting.");
+//     }
+//     console.log(`You register this ${formatted} number with us`)
+// }
+// else{
+//     window.alert("Invalid number. Enter a valid 11-digit Nigerian phone number starting with 080, 070, 090, 081, or 091.");
+//     console.log("Your number was not registered. Please try again with a valid number");
+// }
+
+// let Firstname = "Praise";
+// let Lastname = "Olomola";
+
+
+// let Nickname = Firstname.slice(0, 3) + Lastname.slice(0,3);
+// console.log(`Yoour nickkname is ${Nickname}`)
+
+// let Username = window.prompt ("Enter you Username");
+// Username = Username.trim();
+// let letter = Username.charAt(0);
+// letter = letter.toUpperCase();
+
+// let extrachar = Username.slice(1);
+// extrachar = extrachar.toLowerCase();
+
+// Username = letter + extrachar;
+// console.log(`Your username iS ${Username}`)
+
+// let username = window.prompt ("Enter you Username");
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+// console.log(username)
+
+// const issunny =true ;
+// if(!issunny){
+//    ` console.log("It is Cloudy")`
+// }
+// else{
+//      console.log("It is Sunny")}
+
+
+
+// let loggedin =true;
+// let username;
+// let password;
+
+// do{
+//     username = window.prompt("Enter your Username");
+//     password = window.prompt("Enter your Password");   
+//     if(username === "username" && password === "password"){
+//         loggedin = true;
+//         console.log("You are Logged In")
+//     }
+
+//     else{
+//         console.log("Invalid credentials. please try again");
+
+//     }
+// }
+// while(!loggedin);
+
+//  const minNum= 1;
+//  const maxNum = 100;
+//  const answer = Math.floor(Math.random()* (maxNum - minNum +1)) + minNum;
+
+// let attempt = 0;
+// let guess;
+// let running = true;
+
+// while(running){
+//     guess= window.prompt(`Guess a number between ${minNum} - ${maxNum}`)
+//     guess = Number(guess)
+
+//     if(isNaN(guess)){
+//         window.alert("Enter a vaild number")
+//     }
+//     else if( guess < minNum || guess > maxNum){
+//         window.alert("Enter a vaild number")
+//     }
+//     else{
+//         attempt++
+//         if(guess < answer){
+//             window.alert("Your guess too Low. Try again")
+//         }
+//         else if(guess > answer){
+//             window.alert("Your guess too High. Try again")
+//         }
+//         else{
+//             window.alert(`Correct! The answer was ${answer}. It took you ${attempt} attempt`)
+//          running = false;
+//         }
+//     }
+   
+// }
+
+
 
