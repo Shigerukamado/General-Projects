@@ -1,0 +1,395 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    margin: 0;
+
+}
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 50%);
+    background-size:100px ;
+    padding-bottom:5px;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+.header img {
+    width: 50px;
+    height: auto;
+    border-radius: 5em;
+    margin-left: 10px;
+}
+h2{
+    color:white;
+    text-decoration: none;
+    margin-right: 100px;
+}
+h2 a{
+  text-decoration: none;
+  color: white;
+}
+h3 p{
+  text-align: center;
+}
+input{
+    width: 600px; 
+    padding: 10px; 
+    border-radius:5px; 
+    border: 1px solid #ccc; 
+    font-size: 1em; 
+    border: none;
+    border-color: darkgray;
+    border-style: none;
+}
+.Search{
+    font-size: 20px;
+    padding: 10px;
+    border-radius:10px;
+    color: white;
+    background-color: hsl(39, 90%, 45%) ;
+    border:none;
+    transition: 0.25s;
+}
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.Search-box{
+    position: relative;
+}
+.Search-box i{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: darkgray;
+}
+.account {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+  color: white; 
+  padding: 10px;
+}
+
+.account ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  min-width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.account ul li {
+  border-bottom: 1px solid #eee;
+}
+
+.account ul li a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.account ul li a:hover {
+  background-color: #0a4d4f;
+  color: white;
+}
+
+.account:hover ul {
+  display: block;
+}
+.list{
+   display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: orange;
+}
+.list-odd :nth-child(odd){
+    padding-right:10px ;
+    padding-left: 10px;
+}
+
+.list > div {
+  position: relative;
+}
+
+.list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: block;
+}
+
+.list a:hover {
+  color: white;
+}
+
+.list ul,
+.header ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  min-width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.list ul li,
+.header ul li {
+  border-bottom: 1px solid #eee;
+}
+
+.list ul li a,
+.header ul li a {
+  padding: 10px;
+  color: #333;
+  font-weight: normal;
+}
+
+.list ul li a:hover,
+.header ul li a:hover {
+  background-color: #0a4d4f;
+  color: white;
+}
+
+.list div:hover ul,
+.account:hover + ul {
+  display: block;
+}
+#product i{
+  gap: 0px;
+  color: black;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  gap: 2px;
+}
+#product i:hover{
+  gap: 0px;
+  color: white;
+}
+
+
+.Cart{
+  font-size: 20px;
+  border-radius:20px;
+} 
+.Cart label{
+    color: white;
+    font-size: 20px;
+}
+.Cart i{
+    color: white;
+    font-size: 15px;
+}
+.Clothes {
+  padding: 20px;
+}
+
+.Clothes h3 {
+  margin: 20px 0 10px;
+  font-size: 1.5em;
+  color: darkcyan;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.products div {
+  background: darkcyan ;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.products div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.products img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.products label {
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.products p {
+  font-size: 20px;
+  color: white;
+  margin: 5px 0 10px;
+  line-height: 1.4;
+}
+
+.products button {
+  background-color: hsl(39, 100%, 50%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.products button:hover {
+  background-color: hsl(39, 95%, 45%);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.products button i{
+    width:  50px;
+}
+.price {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkgreen;
+  margin: 5px 0;
+}
+.Footer{
+  background-color:hsl(0, 0%, 30%);
+  padding-bottom: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.footer-header{
+   display: flex;
+    background-size:100px ;
+    padding-bottom:20px;
+    gap: 2px;
+    margin-left: 0px;
+}
+.Footer .First-Section img{
+  margin-right: 0px;
+  margin-left: 250px;
+}
+.Footer .First-Section h2{
+  margin-right: 25px;
+}
+div h2, div h3{
+  color: orange;
+}
+.newsletter{
+  justify-content: center;
+  padding-left: 100px;
+}
+.First-Section{
+  background-color: hsl(0, 0%, 20%);
+  display: flex;
+  align-items: center; 
+  text-size-adjust: 20px;
+  flex-direction: row;
+  background-size:100px ;
+  padding-bottom:20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+.First-Section img{
+    width: 50px;
+    height: auto;
+    border-radius: 5em;
+    margin-right: 100px;
+    flex-direction: row;
+}
+.stayupdated{
+  width: 300px; 
+  height: auto;
+  padding: 10px; 
+  border-radius:5px; 
+  border: 1px solid #ccc; 
+  font-size: 1em; 
+  border: none;
+  border-color: darkgray;
+  border-style: none; 
+}
+.Footer-Section{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.Footer-Section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-Section ul li {
+  margin: 8px 0;
+}
+
+.Footer-Section ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.Footer-Section ul li a:hover {
+  color: #ff6f61;
+}
+.confirmation{
+  width: 20px;
+  margin-top: 10px;
+}
+#Subscribe{
+    font-size: 15px;
+    padding: 10px;
+    border-radius:10px;
+    color: black;
+    background-color: white ;
+    border:none;
+    transition: 0.25s;
+}
+#Subscribe:hover{
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
+.text a{
+  color: #bbb;
+  text-decoration: none;
+}
+.text a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+a i{
+  color: #bbb;
+  font-size: 20px;
+}
+a i:hover{
+  color: orange;
+  font-size: 20px;
+  transition: 0.5s;
+}

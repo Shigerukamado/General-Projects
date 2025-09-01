@@ -376,7 +376,7 @@
 //     else{
 //         result.textContent= "Select a Unit "
 //     }
-// }*/
+// }
  
 // // let fruits = ["apple","orange","banana"];
 
@@ -849,7 +849,7 @@
 
 //     if(isNaN(guess)){
 //         window.alert("Enter a vaild number")
-//     }
+//     },y
 //     else if( guess < minNum || guess > maxNum){
 //         window.alert("Enter a vaild number")
 //     }
@@ -867,6 +867,162 @@
 //         }
 //     }
    
+// }
+
+
+// function isValidEmail(email){
+//     if(email.includes("@")){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+//  console.log(isValidEmail("@praiseolomola.com"))
+
+
+// const textbox = document.getElementById("textbox")
+// const toFahrenheit = document.getElementById("toFahrenheit")
+// const toCelsius = document.getElementById("toCelsius")
+// const result = document.getElementById("result")
+
+// let temp;
+// temp = Number(textbox.value);
+// function convert(){
+//   if(toFahrenheit.checked){
+//     temp = 9/5 * (temp + 32)
+//     result.textContent = temp + "F"
+//   }
+//   else if(toCelsius.checked){
+//    temp = 5/9 * (temp - 32)
+//    result.textContent = temp + "C"
+//   }
+//   else{
+//     result.textContent = "Select a Unit"
+//   }
+// }
+
+// function stock(...fruits){
+//   console.log(...fruits)
+// }
+
+// const fruit1 ="Apple";
+// const fruit2 = "Mango";
+// const fruit3 ="Watermelon";
+// const fruit4 = "Grape";
+
+// stock(fruit1, fruit2, fruit3, fruit4)
+
+// function sum(...numbers){
+
+
+//   let result = 0;
+//   for(let number of numbers){
+//     result +=number;
+//   }
+//   return result;
+// }
+
+// const totalsum = sum(1, 2, 3)
+
+// console.log( `The total sum is ${totalsum} `)
+
+// function getAverage(...numbers){
+
+
+//   let result = 0;
+//   for(let number of numbers){
+//     result +=number;
+//   }
+//   return result / numbers.length;
+// }
+
+// const totalaverage = getAverage(1, 2, 3, 6)
+
+// console.log( `The Average  is ${totalaverage} `)
+
+
+// function rollDice() {
+//   const number = document.getElementById("number").value;
+//   const diceresult = document.getElementById("diceresult");
+//   const diceimages = document.getElementById("diceimages");
+//   const values = [];
+//   const images = [];
+
+//   for (let i = 0; i < number; i++) {
+//     const value = Math.floor(Math.random() * 6) + 1;
+//     values.push(value);
+//     images.push(`<img src="Image/${value}.png" alt="Dice ${value}">`);
+//   }
+
+//   diceresult.textContent = `Dice: ${values.join(', ')}`;
+//   diceimages.innerHTML = images.join('');
+// }
+
+// function generatedpassword(length, includetoLowercase, includetoUppercase, includeNumber, includeSymbol){
+//   const lowercasechars = "abcdefghijklmnopqrstuvwxyz";
+//   const uppercasechars = "ABCDEFDHIJKLMNOPQRSTUVWXYZ";
+//   const numberchars = "0123456789";
+//   const symbolchars = "!@#$%^&*()_+?><{}:',./][=-";
+
+//   let allowedchars = "";
+//   let password ="";
+
+
+//   allowedchars += includetoLowercase ? lowercasechars : "";
+//   allowedchars += includetoUppercase ? uppercasechars: "";
+//   allowedchars += includeNumber ? numberchars: "";
+//   allowedchars += includeSymbol ? symbolchars: "";
+
+//   if(length < 8){
+//     return "Password must be at least 8 characters"
+//   }
+  // if(allowedchars.length === 0){
+  //   return "At least 1 of the characters must be selected"
+  // }
+
+//   for(let i = 0; i < length; i++ ){
+//     const randoIndex = Math.floor(Math.random() * allowedchars.length);
+//     password += allowedchars[randoIndex];
+//   }
+
+// return password; 
+// }
+
+// const PasswordLength =8;
+// const includetoLowercase= true;
+// const includetoUppercase = true;
+// const includeNumber = true;
+// const includeSymbol = true;
+
+// const password = generatedpassword(PasswordLength, 
+//                                    includetoLowercase,
+//                                    includetoUppercase, 
+//                                    includeNumber, 
+//                                    includeSymbol
+// );
+
+// console.log(`Generated password: ${password}`)
+
+// Hello()
+// Goodbye();
+
+// function Goodbye(){
+//   setTimeout(() => console.log("Goodbye"), 3000);
+// }
+
+// function Hello(){
+//   console.log("Hello");}
+
+
+// Hello(wait)
+// function Hello(callback){
+//   console.log("Hello!")
+//   callback()
+// }
+
+// function wait(){
+//   console.log("wait!")
 // }
 
 

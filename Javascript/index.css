@@ -20,7 +20,7 @@
     background-color:hsl(214, 78%, 16%) ;
 } */
 
-/*body{
+/* body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -36,9 +36,9 @@
     font-size: 15px;
     padding: 5px 25px;
     border-radius: 5px;
-}
+} */
 
-body{
+/* body{
     font-family: Arial, sans-serif;
     font-size: 20px;
     background-color: hsl(0, 0%, 95%);
@@ -50,6 +50,7 @@ form{
 background-color: hsl(0, 0%, 100%);
 text-align: center;
 max-width: 350px;
+height: 400px;
 margin: auto;
 padding: 25px;
 border-radius: 10px;
@@ -82,9 +83,9 @@ button:hover{
     background-color: hsl(0, 100%, 50%);
 }
 #result{
-    font-size: 1.75em;
+    font-size: 1em;
     font-weight: bold;
-}*/
+} */
 /* .body{ */
     /* background-color:aliceblue ; */
 
@@ -111,3 +112,41 @@ button:hover{
     background-color: hsl(214, 78%, 16%);
     cursor: pointer;
 }  */
+
+/* #container{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius:10px;
+    border: none;
+    background-color: hsl(240, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+button:hover{
+    background-color: hsl(240, 100%, 70%);
+
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceresult{
+    padding: 25px;
+}
+#diceimages img{
+    width:150px;
+    margin: 5px;
+} */

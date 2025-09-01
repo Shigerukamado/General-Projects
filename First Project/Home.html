@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPORA</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" type="image" href="SHOPPORA.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+        <div class="header">
+             <img src="SHOPPORA.png"> 
+            <h2><a href="Home.html">SHOPPORA</a></h2>
+            <div class="Search-box">
+                 <input type="input" placeholder="Search for products, brands and more" id="Search">
+                <i class="fa-solid fa-search"></i>
+            </div>
+            <button class="Search" id="Searchbtn" >Search</button>
+            <div class="account">
+                 <span>My Account <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul>
+                             <li><a href="">Profile</a></li>
+                             <li><a href="">Notification</a></li>
+                            <li><a href="">Settings</a></li>
+                            <li><a href="">Log Out</a></li>
+                        </ul>
+            </div>
+            <div class="Cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <label for="Cart">Cart</label>
+            </div>
+    </div>  
+<div class="list list-odd">
+            <div><a href="#">Home</a></div>
+            
+
+            <div onclick="toggleDropdown()" id="product">
+                 <a href="">Product Categories</a>
+                <ul id="products">
+                    <li><a href="">Adult Male</a></li><br>
+
+                    <li><a href="">Adult Female</a></li><br>
+
+                    <li><a href="">Teenagers</a></li><br>
+
+                    <li><a href="">Children</a></li><br>
+
+                    <li><a href="">Babies</a></li><br>
+                </ul>
+            </div>
+
+            <div><a href="#">New Arrivals</a></div>
+            <div><a href="#">Best Sellers</a></div>
+            <div><a href="#">Sales</a></div>
+            <div><a href="#">Collections</a></div>
+            <div><a href="#">Size Guide</a></div>
+            <div><a href="#">About Us</a></div>
+            <div><a href="#">Contact</a></div>
+        </div>
+<div class="Clothes">
+
+    <!-- Men -->
+    <h3>Men Clothes</h3>
+    <div class="products">
+        <div>
+            <img src="tshirt-men.jpeg" alt="T-shirt"><br>
+            <label>Men’s Cotton T-shirt</label>
+            <p>Soft breathable cotton, ideal for casual wear.</p>
+            <span class="price">$25</span>
+            <button class="addtocart"data-name="Men’s Cotton T-shirt" data-price="$25"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="jeans-men.jpeg" alt="Men Jeans"><br>
+            <label>Men’s Slim Fit Jeans</label>
+            <p>Durable denim with modern slim fit style.</p>
+            <span class="price">$45</span>
+            <button class="addtocart"data-name="Men’s Slim Fit Jeans" data-price="$45"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="jacket-men.jpeg" alt="Jacket"><br>
+            <label>Men’s Winter Jacket</label>
+            <p>Perfect for office and formal occasions.</p>
+            <span class="price">$35</span>
+            <button class="addtocart"data-name="Men’s Winter Jacket" data-price="$35"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="shirt-men.jpeg" alt="Shirt"><br>
+            <label>Classic Formal Shirt</label>
+            <p>Warm and stylish, suitable for cold weather.</p>
+            <span class="price">$70</span>
+            <button class="addtocart" data-name="Classic Formal Shirt" data-price="$70"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+    </div>
+
+    <!-- Women -->
+    <h3>Women Clothes</h3>
+    <div class="products">
+        <div>
+            <img src="dress-women.jpeg" alt="Dress"><br>
+            <label>Elegant Summer Dress</label>
+            <p>Lightweight and elegant design for outings.</p>
+            <span class="price">$40</span>
+            <button class="addtocart" data-name="Elegant Summer Dress" data-price="$40"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="blouse-women.jpeg" alt="Blouse"><br>
+            <label>Silk Blouse</label>
+            <p>Premium silk blouse with soft touch.</p>
+            <span class="price">$30</span>
+            <button class="addtocart" data-name="Silk Blouse" data-price="$30"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="skirt-women.jpeg" alt="Skirt"><br>
+            <label>Casual Skirt</label>
+            <p>Trendy skirt, great for everyday fashion.</p>
+            <span class="price">$28</span>
+            <button class="addtocart"data-name="Casual Skirt" data-price="$28"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="coat-women.jpeg" alt="Coat"><br>
+            <label>Women’s Blazer Coat</label>
+            <p>Stylish jacket with durable leather finish.</p>
+            <span class="price">$85</span>
+           <button class="addtocart" data-name="Women’s Blazer Coat" data-price="$85"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+    </div>
+
+    <!-- Kids -->
+    <h3>Kids Clothes</h3>
+    <div class="products">
+        <div>
+            <img src="kids-shirt.jpeg" alt="Kids Shirt"><br>
+            <label>Boy’s Cotton Shirt</label>
+            <p>Comfortable cotton, perfect for school wear.</p>
+            <span class="price">$18</span>
+          <button class="addtocart" data-name="Boy’s Cotton Shirt" data-price="$18"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="kids-dress.jpeg" alt="Kids Dress"><br>
+            <label>Girl’s Party Dress</label>
+            <p>Cute and colorful design for special events.</p>
+            <span class="price">$25</span>
+            <button class="addtocart" data-name="Girl’s Party Dress" data-price="$25"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="kids-shorts.jpeg" alt="Kids Shorts"><br>
+            <label>Kids Casual Shorts</label>
+            <p>Strong denim jeans, made for active kids.</p>
+            <span class="price">$22</span>
+            <button class="addtocart" data-name="Kids Casual Shorts" data-price="$22"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="kids-hoodie.jpeg" alt="Kids Hoodie"><br>
+            <label>Kids Winter Hoodie</label>
+            <p>Warm hoodie with fun cartoon print.</p>
+            <span class="price">$20</span>
+           <button class="addtocart" data-name="Kids Winter Hoodie" data-price="$20"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+    </div>
+
+    <!-- Babies -->
+    <h3>Baby Clothes</h3>
+    <div class="products">
+        <div>
+            <img src="baby-onesie.jpeg" alt="Baby Onesie"><br>
+            <label>Baby Onesie Set</label>
+            <p>Soft cotton onesie for everyday comfort.</p>
+            <span class="price">$25</span>
+            <button class="addtocart" data-name="Baby Onesie Set" data-price="$25"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="baby-romper.jpeg" alt="Baby Romper"><br>
+            <label>Soft Baby Romper</label>
+            <p>Adorable dress with floral design.</p>
+            <span class="price">$25</span>
+            <button class="addtocart" data-name="Soft Baby Romper" data-price="$25"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="baby-shoes.jpeg" alt="Baby Shoes"><br>
+            <label>Cotton Baby Shoes</label>
+            <p>2-piece set for baby boys and girls.</p>
+            <span class="price">$25</span>
+            <button class="addtocart" data-name="Cotton Baby Shoes" data-price="$25"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+        <div>
+            <img src="baby-jacket.jpeg" alt="Baby Jacket"><br>
+            <label>Baby Winter Jacket</label>
+            <p>Cozy hoodie, keeps baby warm and cute.</p>
+            <span class="price">$25</span>
+           <button class="addtocart"data-name="Baby Winter Jacket" data-price="$25"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+<footer class="Footer">
+<div class="First-Section">
+    <div class="footer-header">
+              <div>
+         <img src="SHOPPORA.png" alt="SHOPPORA">
+       </div>
+       <h2>SHOPPORA</h2>
+    </div>
+    <div class="newsletter">
+      <h3>Stay Updated</h3>
+      <p>Subscribe to our Newsletter</p>
+      <form>
+        <input type="email" name="Email" class="stayupdated" placeholder="Enter email address" required>
+        <button id="Subscribe">Subscribe</button>
+      </form>
+    <div class="policy-check">
+        <input type="checkbox" class="confirmation" required>
+        <label for="confirmation" class="text">
+          I agree to Shoppora’s <a href="#">Privacy Policy</a> and <a href="#">Cookie Policy</a>.<br>
+          You can unsubscribe anytime. <a href="#">I accept the Legal Terms</a>
+        </label>
+    </div>
+    </div>
+        </div>
+    <div  class="Footer-Section">
+         <div>
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="">Shop Now</a></li>
+            <li><a href="">My Orders</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">FAQS</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Customers Support</h3>
+        <ul>
+            <li><a href="">Delivery Information</a></li>
+            <li><a href="">Returns and Refunds</a></li>
+            <li><a href="">Size Guide</a></li>
+            <li><a href="">Help Center</a></li>
+        </ul>
+    </div>
+
+    <div claas="socials">
+        <h3>Socials</h3>
+        <a href="mailto:olomolapraiseoluwadamilare@gmail.com" target="_top"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://x.com/olomolapraise" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100079079560044" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/olomolapraiseoluwadamilare" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/2348089689277" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+        <a href="https://www.tiktok.com/@codnightmare0001" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    </div>
+   
+        <h3><p>Copyright &copy; 2025 SHOPPORA</p></h3>
+</footer>
+         <script src="Home.js"></script>
+</body>
+</html>
