@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad9edfff-8d28-48ad-80fc-cdb7c8049a45" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Issues-Tracker/issuses-tracker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Issues-Tracker/issuses-tracker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Issues-Tracker/issuses-tracker/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Issues-Tracker/issuses-tracker/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first next app/app" beforeDir="false" afterPath="$PROJECT_DIR$/first next app/app" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="32wpwYckr5tazdBedIBa0JoeD9R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/hp"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad9edfff-8d28-48ad-80fc-cdb7c8049a45" name="Changes" comment="" />
+      <created>1758341733133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758341733133</updated>
+    </task>
+    <servers />
+  </component>
+</project>
