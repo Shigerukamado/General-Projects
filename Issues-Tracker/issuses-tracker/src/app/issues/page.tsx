@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { Button } from '@radix-ui/themes'
 const Issuespage = () => {
   return (
-    <div>Issuespage</div>
+    <div><Button>New Issues</Button></div>
   )
 }
 
