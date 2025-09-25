@@ -1,5 +1,5 @@
 {
-	"dependencies": {
-		"prisma": "^6.15.0"
-	}
+  "dependencies": {
+    "pnpm": "^10.17.1"
+  }
 }
